@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #442f26;
+        }
+        .profile-container {
+            width: 210mm; /* ขนาดหน้า */
+            height: 230mm; /* ขนาดหน้า */
+            background-color: #f6f6f1;
+            padding: 20mm;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden; /* Prevent content overflow */
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-header img {
+            width: 175px;
+            height: 190px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .profile-header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .profile-section {
+            margin-bottom: 20px;
+        }
+        .profile-section h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #3f3f3f;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .profile-section p {
+            font-size: 14px;
+            color: #3f3f3f;
+            line-height: 1.6;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            font-size: 14px;
+            color: #3f3f3f;
+        }
+        /* Print styles */
+        @media print {
+            body {
+                display: block;
+                background-color: white;
+            }
+            .profile-container {
+                box-shadow: none;
+                margin: 0;
+                padding: 20mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462578695_1519905662008844_6295098636657449205_n.jpg?stp=dst-jpg_p480x480&_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHfiIfpNQB9HyXfFozZOEHDBHNf6K6RsB4Ec1_orpGwHt7ey2B6CDBjQWnaXBu95WGO51ZsoWM72wkosyxQZn_L&_nc_ohc=vDO2tat5LG0Q7kNvgEKayiG&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&_nc_gid=Az_nnU6HIamSTymm7IchflO&oh=03_Q7cD1QEHCfTrN05VP0G-n2OAyI4IVXi-0cyZwCMA_WrrxuTMlw&oe=674DC414">
+            <h1>About Me</h1>
+        </div>
+        
+        <div class="profile-section">
+            <h3>ประวัติส่วนตัว</h3>
+            <p>ชื่อ : นายพงศ์นิรัติ เทียบรัตน์ <br> อายุ : 23 ปี <br> เกิด : 27 พฤศจิกายน 2001 </p>
+        </div>
+        
+        <div class="profile-section">
+            <h3>การศึกษา</h3>
+            <p>ประกาศนียบัตรวิชาชีพ สาขาคอมพิวเตอร์ธุรกิจ วิทยาลัยเทคโนโลยีสิริวัฒนาบริหารธุรกิจ <br> ประกาศนียบัตรวิชาชีพชั้นสูง สาขาเทคโนโลยีธุรกิจดิจิทัล วิทยาลัยเทคโนโลยีสิริวัฒนาบริหารธุรกิจ <br> กำลังศึกษาปริญญาตรี สาขาวิศวะกรรมคอมพิวเตอร์ มหาวิทยาศรีปทุม</p>
+        </div>
+        
+        <div class="profile-section">
+            <h3>งานอดิเรก</h3>
+            <p>ชอบเล่นเกม เล่นฟุตบอล</p>
+        </div>
+        
+        <div class="profile-section">
+            <h3>อาชีพในฝัน</h3>
+            <p>ยังไม่มีความฝัน ไม่รู้ว่าถนัดอะไรหรือชอบอะไรเป็นพิเศษ</p>
+        </div>
+        
+        <div class="profile-section">
+            <h3>ข้อมูลการติดต่อ</h3>
+            <div class="contact-info">
+                <div>📞 โทรศัพท์: 095-636-8191</div>
+                <div>✉️ อีเมล: dreammy27436@gmail.com</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
